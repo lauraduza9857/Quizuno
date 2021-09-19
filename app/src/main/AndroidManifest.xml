@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quizuno">
         <activity
+            android:name=".AutoEvaluacionActitvity"
+            android:exported="true" />
+        <activity
+            android:name=".PreparacionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NombreActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
